@@ -4,7 +4,9 @@ Remapper.Engine = function (keymap) {
   const debug = false;
 
   const urlBlacklist = [
-    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/crosh.html'
+    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/crosh.html',
+    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html',
+    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html#profile-id:bcae'
   ];
 
   const nullKeyData = {
