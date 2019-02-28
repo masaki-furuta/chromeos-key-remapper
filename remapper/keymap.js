@@ -15,5 +15,6 @@ const keymap = [
   {'match': 'M-a', 'emit': ['C-KeyA']}, // C-a replacement: for select all
   {'match': 'M-b', 'emit': ['C-KeyB']}, // C-b replacement: for boldening text on paper
   {'match': 'M-n', 'emit': ['C-KeyN']}, // C-n replacement: for opening a new window
-  {'match': 'M-k', 'emit': ['C-KeyK']} // C-k replacement: for Slack channel switcher
+  {'match': 'M-k', 'emit': ['C-KeyK']}, // C-k replacement: for Slack channel switcher
+  {'match': 'M-y', 'emit': ['C-KeyY']} // C-y replacement: for redo
 ];
