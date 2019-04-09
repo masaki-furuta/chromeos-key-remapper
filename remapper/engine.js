@@ -5,7 +5,8 @@ Remapper.Engine = function (keymap) {
 
   const urlBlacklist = [
     'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/crosh.html',
-    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html'
+    'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html',
+    'chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html'
   ];
 
   const nullKeyData = {
@@ -82,6 +83,11 @@ Remapper.Engine = function (keymap) {
     }
 
     if (lastFocusedWindowUrl && urlBlacklist.indexOf(lastFocusedWindowUrl.replace(/#profile-id.*$/,"")) !== -1) {
+      // don't remap in blacklisted windows
+      return false;
+    }
+
+    if (lastFocusedWindowUrl && urlBlacklist.indexOf(lastFocusedWindowUrl.replace(/.command.*$/,"")) !== -1) {
       // don't remap in blacklisted windows
       return false;
     }
