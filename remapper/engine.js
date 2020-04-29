@@ -6,7 +6,8 @@ Remapper.Engine = function (keymap) {
   const urlBlacklist = [
     'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/crosh.html',
     'chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh.html',
-    'chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html'
+    'chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html',
+    'chrome-untrusted://terminal/html/terminal.html'
   ];
 
   const nullKeyData = {
