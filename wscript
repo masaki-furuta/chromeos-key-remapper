@@ -118,7 +118,7 @@ class manifest(Task.Task):
         input_component = {
             "name": self.env.name,
             "type": "ime",
-            "id": "io.github.ento.cros_key_remapper." + self.env.identifier,
+            "id": "io.github.masaki_furuta.cros_key_remapper." + self.env.identifier,
             "description": self.env.description,
             "language": self.env.language,
             "layouts": [self.env.layout],

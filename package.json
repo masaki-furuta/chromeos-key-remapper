@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ento/chromeos-key-remapper.git"
+    "url": "git+https://github.com/masaki-furuta/chromeos-key-remapper.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ento/chromeos-key-remapper/issues"
+    "url": "https://github.com/masaki-furuta/chromeos-key-remapper/issues"
   },
-  "homepage": "https://github.com/ento/chromeos-key-remapper#readme"
+  "homepage": "https://github.com/masaki-furuta/chromeos-key-remapper#readme"
 }

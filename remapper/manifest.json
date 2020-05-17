@@ -18,7 +18,7 @@
     {
       "name": "US x emacs",
       "type": "ime",
-      "id": "io.github.ento.cros_key_remapper",
+      "id": "io.github.masaki_furuta.cros_key_remapper",
       "description": "US keyboard with emacs-like cursor movement",
       "language": "en-US",
       "layouts": ["us"]
@@ -26,7 +26,7 @@
     {
       "name": "JP x emacs",
       "type": "ime",
-      "id": "io.github.ento.cros_key_remapper_jp",
+      "id": "io.github.masaki_furuta.cros_key_remapper_jp",
       "description": "JP keyboard with emacs-like cursor movement",
       "language": "ja",
       "layouts": ["jp"]
