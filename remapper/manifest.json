@@ -20,7 +20,7 @@
       "type": "ime",
       "id": "io.github.ento.cros_key_remapper",
       "description": "US keyboard with emacs-like cursor movement",
-      "language": "en",
+      "language": "en-US",
       "layouts": ["us"]
     },
     {
